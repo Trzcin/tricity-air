@@ -1,0 +1,78 @@
+{
+    "labels": [
+        "Styczeń",
+        "Luty",
+        "Marzec",
+        "Kwiecień",
+        "Maj",
+        "Czerwiec",
+        "Lipiec",
+        "Sierpień",
+        "Wrzesień",
+        "Październik",
+        "Listopad",
+        "Grudzień"
+    ],
+    "datasets": [
+        {
+            "id": "PmGdaLeczkow",
+            "label": "Poziom CO (ug/m^3) PmGdaLeczkow",
+            "data": [
+                451.04737, 462.71509, 354.68285, 292.28453, 250.79422,
+                199.75474, 206.46026, 255.28528, 256.71376, 329.69442,
+                293.98955, 367.51526
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaPowWars",
+            "label": "Poziom CO (ug/m^3) PmGdaPowWars",
+            "data": [
+                469.66133, 513.69827, 421.63013, 320.54189, 254.36205,
+                246.99303, 260.68631, 288.02693, 311.10821, 358.09373, 340.2234,
+                409.9439
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaWyzwole",
+            "label": "Poziom CO (ug/m^3) PmGdaWyzwole",
+            "data": [
+                399.95148, 425.24588, 347.78427, 309.22809, 280.66767,
+                285.40146, 329.46565, 270.90545, 264.07401, 367.66428,
+                325.90094, 385.22036
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdyPorebsk",
+            "label": "Poziom CO (ug/m^3) PmGdyPorebsk",
+            "data": [
+                483.60928, 507.57385, 373.24189, 230.16077, 216.10041,
+                200.65479, 207.20938, 205.63096, 229.17633, 301.96709,
+                364.64871, 441.1017
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmSopBiPlowc",
+            "label": "Poziom CO (ug/m^3) PmSopBiPlowc",
+            "data": [
+                438.90418, 461.57953, 290.88073, 279.70435, 292.67916,
+                316.44439, 309.92454, 321.97233, 228.32559, 178.11094,
+                321.10781, 399.80716
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        }
+    ]
+}

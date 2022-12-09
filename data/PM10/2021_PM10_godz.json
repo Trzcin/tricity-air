@@ -1,0 +1,218 @@
+[
+  {
+    "Godzina": 0,
+    "PmGdaLeczkow": 22.4955,
+    "PmGdaPowWars": 23.8582,
+    "PmGdaWyzwole": 21.6942,
+    "PmGdyPorebsk": 21.5243,
+    "PmGdySzafran": 20.816,
+    "PmSopBiPlowc": 18.7849
+  },
+  {
+    "Godzina": 1,
+    "PmGdaLeczkow": 21.5865,
+    "PmGdaPowWars": 21.2656,
+    "PmGdaWyzwole": 20.6182,
+    "PmGdyPorebsk": 21.0285,
+    "PmGdySzafran": 19.9989,
+    "PmSopBiPlowc": 18.0576
+  },
+  {
+    "Godzina": 2,
+    "PmGdaLeczkow": 20.5844,
+    "PmGdaPowWars": 20.2158,
+    "PmGdaWyzwole": 19.3735,
+    "PmGdyPorebsk": 18.8314,
+    "PmGdySzafran": 19.1466,
+    "PmSopBiPlowc": 17.4808
+  },
+  {
+    "Godzina": 3,
+    "PmGdaLeczkow": 20.1167,
+    "PmGdaPowWars": 18.3058,
+    "PmGdaWyzwole": 18.7464,
+    "PmGdyPorebsk": 17.5639,
+    "PmGdySzafran": 18.5324,
+    "PmSopBiPlowc": 16.8624
+  },
+  {
+    "Godzina": 4,
+    "PmGdaLeczkow": 20.056,
+    "PmGdaPowWars": 17.7475,
+    "PmGdaWyzwole": 17.8422,
+    "PmGdyPorebsk": 16.8519,
+    "PmGdySzafran": 18.0402,
+    "PmSopBiPlowc": 16.593
+  },
+  {
+    "Godzina": 5,
+    "PmGdaLeczkow": 20.2815,
+    "PmGdaPowWars": 18.0721,
+    "PmGdaWyzwole": 17.7925,
+    "PmGdyPorebsk": 16.6402,
+    "PmGdySzafran": 17.9793,
+    "PmSopBiPlowc": 16.5627
+  },
+  {
+    "Godzina": 6,
+    "PmGdaLeczkow": 20.3947,
+    "PmGdaPowWars": 19.1159,
+    "PmGdaWyzwole": 18.4304,
+    "PmGdyPorebsk": 17.2502,
+    "PmGdySzafran": 18.8533,
+    "PmSopBiPlowc": 16.8986
+  },
+  {
+    "Godzina": 7,
+    "PmGdaLeczkow": 21.2436,
+    "PmGdaPowWars": 20.8403,
+    "PmGdaWyzwole": 19.7657,
+    "PmGdyPorebsk": 18.6704,
+    "PmGdySzafran": 20.0383,
+    "PmSopBiPlowc": 17.6981
+  },
+  {
+    "Godzina": 8,
+    "PmGdaLeczkow": 21.9138,
+    "PmGdaPowWars": 21.5534,
+    "PmGdaWyzwole": 21.1324,
+    "PmGdyPorebsk": 20.7345,
+    "PmGdySzafran": 20.3035,
+    "PmSopBiPlowc": 18.9351
+  },
+  {
+    "Godzina": 9,
+    "PmGdaLeczkow": 22.3435,
+    "PmGdaPowWars": 22.534,
+    "PmGdaWyzwole": 21.4461,
+    "PmGdyPorebsk": 21.2254,
+    "PmGdySzafran": 19.9094,
+    "PmSopBiPlowc": 19.6657
+  },
+  {
+    "Godzina": 10,
+    "PmGdaLeczkow": 22.3798,
+    "PmGdaPowWars": 22.171,
+    "PmGdaWyzwole": 20.6052,
+    "PmGdyPorebsk": 20.8046,
+    "PmGdySzafran": 20.3101,
+    "PmSopBiPlowc": 19.523
+  },
+  {
+    "Godzina": 11,
+    "PmGdaLeczkow": 21.8367,
+    "PmGdaPowWars": 21.7677,
+    "PmGdaWyzwole": 19.5721,
+    "PmGdyPorebsk": 20.999,
+    "PmGdySzafran": 19.7621,
+    "PmSopBiPlowc": 18.7103
+  },
+  {
+    "Godzina": 12,
+    "PmGdaLeczkow": 21.732,
+    "PmGdaPowWars": 22.7579,
+    "PmGdaWyzwole": 19.1735,
+    "PmGdyPorebsk": 19.6321,
+    "PmGdySzafran": 19.0078,
+    "PmSopBiPlowc": 18.4677
+  },
+  {
+    "Godzina": 13,
+    "PmGdaLeczkow": 21.2389,
+    "PmGdaPowWars": 21.8232,
+    "PmGdaWyzwole": 18.5146,
+    "PmGdyPorebsk": 19.6457,
+    "PmGdySzafran": 19.2187,
+    "PmSopBiPlowc": 18.2892
+  },
+  {
+    "Godzina": 14,
+    "PmGdaLeczkow": 21.2782,
+    "PmGdaPowWars": 23.1246,
+    "PmGdaWyzwole": 17.9819,
+    "PmGdyPorebsk": 19.7113,
+    "PmGdySzafran": 19.2208,
+    "PmSopBiPlowc": 17.8188
+  },
+  {
+    "Godzina": 15,
+    "PmGdaLeczkow": 21.5854,
+    "PmGdaPowWars": 24.6959,
+    "PmGdaWyzwole": 17.6247,
+    "PmGdyPorebsk": 20.2244,
+    "PmGdySzafran": 19.2381,
+    "PmSopBiPlowc": 18.3432
+  },
+  {
+    "Godzina": 16,
+    "PmGdaLeczkow": 21.6871,
+    "PmGdaPowWars": 24.1738,
+    "PmGdaWyzwole": 17.1272,
+    "PmGdyPorebsk": 20.7549,
+    "PmGdySzafran": 18.5561,
+    "PmSopBiPlowc": 18.4142
+  },
+  {
+    "Godzina": 17,
+    "PmGdaLeczkow": 22.2704,
+    "PmGdaPowWars": 25.026,
+    "PmGdaWyzwole": 17.2826,
+    "PmGdyPorebsk": 21.3945,
+    "PmGdySzafran": 18.6942,
+    "PmSopBiPlowc": 18.3727
+  },
+  {
+    "Godzina": 18,
+    "PmGdaLeczkow": 23.8132,
+    "PmGdaPowWars": 26.9816,
+    "PmGdaWyzwole": 18.6264,
+    "PmGdyPorebsk": 23.1989,
+    "PmGdySzafran": 19.1076,
+    "PmSopBiPlowc": 19.0343
+  },
+  {
+    "Godzina": 19,
+    "PmGdaLeczkow": 24.9524,
+    "PmGdaPowWars": 29.6402,
+    "PmGdaWyzwole": 20.3527,
+    "PmGdyPorebsk": 24.2446,
+    "PmGdySzafran": 20.8221,
+    "PmSopBiPlowc": 19.6605
+  },
+  {
+    "Godzina": 20,
+    "PmGdaLeczkow": 26.4463,
+    "PmGdaPowWars": 29.9937,
+    "PmGdaWyzwole": 21.7273,
+    "PmGdyPorebsk": 24.5063,
+    "PmGdySzafran": 21.6118,
+    "PmSopBiPlowc": 19.7726
+  },
+  {
+    "Godzina": 21,
+    "PmGdaLeczkow": 26.4373,
+    "PmGdaPowWars": 29.1503,
+    "PmGdaWyzwole": 23.7035,
+    "PmGdyPorebsk": 24.4752,
+    "PmGdySzafran": 22.1,
+    "PmSopBiPlowc": 20.0822
+  },
+  {
+    "Godzina": 22,
+    "PmGdaLeczkow": 25.1109,
+    "PmGdaPowWars": 27.6004,
+    "PmGdaWyzwole": 22.9376,
+    "PmGdyPorebsk": 23.9178,
+    "PmGdySzafran": 22.0668,
+    "PmSopBiPlowc": 19.9689
+  },
+  {
+    "Godzina": 23,
+    "PmGdaLeczkow": 23.7471,
+    "PmGdaPowWars": 26.199,
+    "PmGdaWyzwole": 22.6868,
+    "PmGdyPorebsk": 22.7122,
+    "PmGdySzafran": 21.3119,
+    "PmSopBiPlowc": 19.2609
+  }
+]

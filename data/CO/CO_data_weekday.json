@@ -1,0 +1,68 @@
+{
+    "labels": [
+        "Poniedziałek",
+        "Wtorek",
+        "Środa",
+        "Czwartek",
+        "Piątek",
+        "Sobota",
+        "Niedziela"
+    ],
+    "datasets": [
+        {
+            "id": "PmGdaLeczkow",
+            "label": "Poziom CO (ug/m^3) PmGdaLeczkow",
+            "data": [
+                317.30758, 330.99798, 311.54697, 296.71113, 309.21548,
+                303.33852, 296.44386
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaPowWars",
+            "label": "Poziom CO (ug/m^3) PmGdaPowWars",
+            "data": [
+                354.20599, 372.63603, 364.10498, 342.90069, 352.95882,
+                331.61229, 322.58147
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaWyzwole",
+            "label": "Poziom CO (ug/m^3) PmGdaWyzwole",
+            "data": [
+                339.53041, 361.96868, 339.15284, 331.96238, 324.66013, 314.1976,
+                314.53237
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdyPorebsk",
+            "label": "Poziom CO (ug/m^3) PmGdyPorebsk",
+            "data": [
+                314.52236, 337.47271, 328.96913, 307.10818, 304.54547,
+                303.21311, 291.50516
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmSopBiPlowc",
+            "label": "Poziom CO (ug/m^3) PmSopBiPlowc",
+            "data": [
+                325.06824, 328.37303, 322.90021, 308.3847, 323.77694, 316.59779,
+                308.91569
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        }
+    ]
+}

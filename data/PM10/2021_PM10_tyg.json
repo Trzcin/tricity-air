@@ -1,0 +1,65 @@
+[
+  {
+    "Dzień Tygodnia": 1,
+    "PmGdaLeczkow": 21.5618,
+    "PmGdaPowWars": 22.1988,
+    "PmGdaWyzwole": 19.416,
+    "PmGdyPorebsk": 20.1906,
+    "PmGdySzafran": 19.2418,
+    "PmSopBiPlowc": 17.4476
+  },
+  {
+    "Dzień Tygodnia": 2,
+    "PmGdaLeczkow": 25.4901,
+    "PmGdaPowWars": 27.0329,
+    "PmGdaWyzwole": 23.612,
+    "PmGdyPorebsk": 23.7308,
+    "PmGdySzafran": 22.4975,
+    "PmSopBiPlowc": 19.7257
+  },
+  {
+    "Dzień Tygodnia": 3,
+    "PmGdaLeczkow": 25.0213,
+    "PmGdaPowWars": 26.9888,
+    "PmGdaWyzwole": 22.4016,
+    "PmGdyPorebsk": 22.8984,
+    "PmGdySzafran": 22.2176,
+    "PmSopBiPlowc": 20.7092
+  },
+  {
+    "Dzień Tygodnia": 4,
+    "PmGdaLeczkow": 24.186,
+    "PmGdaPowWars": 24.1809,
+    "PmGdaWyzwole": 21.8736,
+    "PmGdyPorebsk": 21.2386,
+    "PmGdySzafran": 20.977,
+    "PmSopBiPlowc": 19.6122
+  },
+  {
+    "Dzień Tygodnia": 5,
+    "PmGdaLeczkow": 21.2896,
+    "PmGdaPowWars": 22.5512,
+    "PmGdaWyzwole": 19.1141,
+    "PmGdyPorebsk": 20.0711,
+    "PmGdySzafran": 19.8569,
+    "PmSopBiPlowc": 17.8173
+  },
+  {
+    "Dzień Tygodnia": 6,
+    "PmGdaLeczkow": 19.6097,
+    "PmGdaPowWars": 20.1425,
+    "PmGdaWyzwole": 15.44,
+    "PmGdyPorebsk": 19.0562,
+    "PmGdySzafran": 17.48,
+    "PmSopBiPlowc": 17.4769
+  },
+  {
+    "Dzień Tygodnia": 7,
+    "PmGdaLeczkow": 19.0866,
+    "PmGdaPowWars": 19.742,
+    "PmGdaWyzwole": 16.4796,
+    "PmGdyPorebsk": 17.6517,
+    "PmGdySzafran": 16.168,
+    "PmSopBiPlowc": 16.5103
+  }
+]
