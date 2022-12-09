@@ -46,7 +46,7 @@
       : timeSpan === "week"
       ? "w trakcie tygodnia"
       : "w ciągu roku";
-  $: plotTitle = `Ilość ${displayDataType} w Trójmieście ${timeFrameWord} (ug/m^3)`;
+  $: plotTitle = `Ilość ${displayDataType} w Trójmieście ${timeFrameWord} (ug/m^3) (2021r.)`;
 </script>
 
 <Line

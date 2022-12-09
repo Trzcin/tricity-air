@@ -26,7 +26,7 @@
 
   <div>
     <p>Wyświetlany Parametr</p>
-    <label for="CO-toggle" class="check-container">
+    <label for="CO-toggle" class="radio-container">
       CO
       <input
         type="radio"
@@ -35,9 +35,9 @@
         value="CO"
         bind:group={displayDataType}
       />
-      <span class="checkmark" />
+      <span class="radio-checkmark" />
     </label>
-    <label for="NO2-toggle" class="check-container">
+    <label for="NO2-toggle" class="radio-container">
       NO2
       <input
         type="radio"
@@ -46,9 +46,9 @@
         value="NO2"
         bind:group={displayDataType}
       />
-      <span class="checkmark" />
+      <span class="radio-checkmark" />
     </label>
-    <label for="PM10-toggle" class="check-container">
+    <label for="PM10-toggle" class="radio-container">
       PM10
       <input
         type="radio"
@@ -57,26 +57,28 @@
         value="PM10"
         bind:group={displayDataType}
       />
-      <span class="checkmark" />
+      <span class="radio-checkmark" />
     </label>
   </div>
 
   <div>
     <p>Uwzględniane Stacje</p>
-    {#each stations as station}
-      <label class="check-container">
-        {station}
-        <input type="checkbox" bind:checked={selectedStations[station]} />
-        <span class="checkmark" />
-      </label>
-    {/each}
+    <div id="stations-container">
+      {#each stations as station}
+        <label class="check-container">
+          {station}
+          <input type="checkbox" bind:checked={selectedStations[station]} />
+          <span class="checkmark" />
+        </label>
+      {/each}
+    </div>
   </div>
 </div>
 
 <style>
   #sidebar {
     box-shadow: 5px 0 5px #ccc;
-    padding: 1.25rem 0.5rem;
+    padding: 1.5rem 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -157,5 +159,72 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  /* radio */
+  .radio-container {
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .radio-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .radio-container:hover input ~ .radio-checkmark {
+    background-color: #ccc;
+  }
+
+  .radio-container input:checked ~ .radio-checkmark {
+    background-color: #2196f3;
+  }
+
+  .radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .radio-container input:checked ~ .radio-checkmark:after {
+    display: block;
+  }
+
+  .radio-container .radio-checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  #stations-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 1rem;
   }
 </style>

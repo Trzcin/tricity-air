@@ -46,12 +46,12 @@
   @media screen and (max-width: 1200px) {
     :global(#app) {
       grid-template-columns: 1fr;
-      grid-template-rows: 12rem auto;
+      grid-template-rows: 13rem auto;
     }
 
     :global(#sidebar) {
-      flex-direction: row;
-      box-shadow: 0 5px 5px #ccc;
+      flex-direction: row !important;
+      box-shadow: 0 5px 5px #ccc !important;
     }
   }
 
