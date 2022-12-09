@@ -1,0 +1,94 @@
+{
+    "labels": [
+        "Styczeń",
+        "Luty",
+        "Marzec",
+        "Kwiecień",
+        "Maj",
+        "Czerwiec",
+        "Lipiec",
+        "Sierpień",
+        "Wrzesień",
+        "Październik",
+        "Listopad",
+        "Grudzień"
+    ],
+    "datasets": [
+        {
+            "id": "PmGdaLeczkow",
+            "label": "Poziom PM10 (ug/m^3) PmGdaLeczkow",
+            "data": [
+                27.8851, 39.3528, 26.7966, 22.9945, 15.7129, 22.4477, 20.13,
+                13.161, 17.5254, 22.3989, 19.5022, 21.0544
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaPowWars",
+            "label": "Poziom PM10 (ug/m^3) PmGdaPowWars",
+            "data": [
+                25.2389,
+                27.3396,
+                28.7271,
+                24.5491,
+                15.3314,
+                "",
+                "",
+                15.816,
+                19.3951,
+                25.275,
+                21.5892,
+                22.7194
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaWyzwole",
+            "label": "Poziom PM10 (ug/m^3) PmGdaWyzwole",
+            "data": [
+                18.9519, 43.4208, 27.3085, 18.6522, 13.488, 16.9943, 14.2117,
+                9.3178, 18.1651, 23.1356, 17.5031, 18.9408
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdyPorebsk",
+            "label": "Poziom PM10 (ug/m^3) PmGdyPorebsk",
+            "data": [
+                28.3606, 33.8701, 24.3228, 18.4036, 16.2687, 22.0222, 18.1857,
+                11.0967, 14.0444, 19.9135, 19.6952, 23.0858
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdySzafran",
+            "label": "Poziom PM10 (ug/m^3) PmGdySzafran",
+            "data": [
+                22.8712, 29.5447, 21.1379, 18.3249, 15.4497, 21.7742, 19.8982,
+                13.1138, 18.8105, 21.63, 17.5848, 18.0439
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmSopBiPlowc",
+            "label": "Poziom PM10 (ug/m^3) PmSopBiPlowc",
+            "data": [
+                4.4382, 32.46, 20.7392, 16.3087, 14.9285, 19.0601, 18.0743,
+                11.7958, 16.3117, 21.2376, 17.8653, 17.6336
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        }
+    ]
+}

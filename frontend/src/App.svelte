@@ -4,24 +4,18 @@
     Title,
     Tooltip,
     Legend,
-    BarElement,
     CategoryScale,
     LinearScale,
     LineElement,
     PointElement,
   } from "chart.js";
-  import BarChart from "./components/BarChart.svelte";
-  import LineChart from "./components/LineChart.svelte";
-  import MapChart from "./components/MapChart.svelte";
+  import DataChart from "./components/DataChart.svelte";
   import Sidebar from "./components/Sidebar.svelte";
-  import { barData } from "./data/bar_data";
-  import { lineData } from "./data/line_data";
 
   Chart.register(
     Title,
     Tooltip,
     Legend,
-    BarElement,
     CategoryScale,
     LinearScale,
     LineElement,
@@ -31,20 +25,14 @@
   Chart.defaults.font.family =
     "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 
-  let lineDataDisplay = lineData;
-  let barDataDisplay = barData;
-  let chartType: "line" | "bar" | "map" = "line";
+  let timeSpan: "day" | "week" | "year" = "year";
+  let displayDataType: "CO" | "NO2" | "PM10" = "CO";
+  let selectedStations: { [key: string]: boolean } = {};
 </script>
 
-<Sidebar bind:chartType bind:barDataDisplay bind:lineDataDisplay />
+<Sidebar bind:timeSpan bind:displayDataType bind:selectedStations />
 <main>
-  {#if chartType == "line"}
-    <LineChart {lineDataDisplay} />
-  {:else if chartType == "bar"}
-    <BarChart {barDataDisplay} />
-  {:else}
-    <MapChart />
-  {/if}
+  <DataChart {timeSpan} {displayDataType} {selectedStations} />
 </main>
 
 <style>

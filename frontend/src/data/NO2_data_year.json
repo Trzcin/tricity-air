@@ -1,0 +1,84 @@
+{
+    "labels": [
+        "Styczeń",
+        "Luty",
+        "Marzec",
+        "Kwiecień",
+        "Maj",
+        "Czerwiec",
+        "Lipiec",
+        "Sierpień",
+        "Wrzesień",
+        "Październik",
+        "Listopad",
+        "Grudzień"
+    ],
+    "datasets": [
+        {
+            "id": "PmGdaLeczkow",
+            "label": "Poziom NO2 (ug/m^3) PmGdaLeczkow",
+            "data": [
+                20.2749, 27.6503, 16.7396, 15.2311, 12.8335, 13.2804, 13.3273,
+                13.0428, 17.4298, 20.101, 17.8138, 20.4964
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaPowWars",
+            "label": "Poziom NO2 (ug/m^3) PmGdaPowWars",
+            "data": [
+                21.3464, 27.2903, 19.2164, 16.2904, 14.9442, 15.667, 12.7006,
+                11.8658, 18.3975, 20.0294, 17.7289, 21.3082
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaWyzwole",
+            "label": "Poziom NO2 (ug/m^3) PmGdaWyzwole",
+            "data": [
+                18.4564, 24.9712, 17.2324, 14.1784, 12.2806, 11.9321, 12.3148,
+                9.8271, 13.7234, 19.0066, 17.5288, 19.6132
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdyPorebsk",
+            "label": "Poziom NO2 (ug/m^3) PmGdyPorebsk",
+            "data": [
+                14.7949, 20.6147, 11.2052, 6.9872, 7.9841, 6.0513, 5.0116,
+                6.7848, 9.0041, 12.2981, 13.132, 12.0018
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdySzafran",
+            "label": "Poziom NO2 (ug/m^3) PmGdySzafran",
+            "data": [
+                15.86, 19.9456, 13.6093, 13.1061, 12.2462, 13.1708, 11.4051,
+                10.9904, 14.1395, 16.0264, 15.2403, 15.6871
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmSopBiPlowc",
+            "label": "Poziom NO2 (ug/m^3) PmSopBiPlowc",
+            "data": [
+                16.1311, 20.4213, 15.4393, 15.1012, 12.5378, 12.3573, 12.0364,
+                10.0087, 12.7853, 15.9996, 13.9736, 15.9634
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        }
+    ]
+}

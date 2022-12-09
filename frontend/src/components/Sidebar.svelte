@@ -1,57 +1,75 @@
 <script lang="ts">
-  import { barData } from "../data/bar_data";
-  import { lineData } from "../data/line_data";
+  import { onMount } from "svelte";
+  import stations from "../data/stations.json";
 
-  let displayCO = true;
-  let displayNO2 = true;
-  let displayPM10 = true;
-  $: excludeDisplay = [
-    !displayCO ? "CO" : "",
-    !displayNO2 ? "NO2" : "",
-    !displayPM10 ? "PM10" : "",
-  ];
-
-  export let chartType: "line" | "bar" | "map" = "line";
-  export let lineDataDisplay;
-  export let barDataDisplay;
-
-  $: lineDataDisplay = {
-    ...lineData,
-    datasets: lineData.datasets.filter((ds) => !excludeDisplay.includes(ds.id)),
-  };
-  $: barDataDisplay = {
-    ...barData,
-    datasets: barData.datasets.filter((ds) => !excludeDisplay.includes(ds.id)),
-  };
+  export let timeSpan: "day" | "week" | "year" = "year";
+  export let displayDataType: "CO" | "NO2" | "PM10" = "CO";
+  export let selectedStations: { [key: string]: boolean } = {};
+  onMount(() => {
+    for (const station of stations) {
+      selectedStations[station] = true;
+    }
+    // force state update
+    selectedStations = selectedStations;
+  });
 </script>
 
 <div id="sidebar">
   <div>
-    <label for="chart-select" class="title">Rodzaj wykresu</label>
-    <select id="chart-select" bind:value={chartType}>
-      <option value="line">Line chart</option>
-      <option value="bar">Bar chart</option>
-      <option value="map">Map chart</option>
+    <label for="chart-select" class="title">Przedział Czasu</label>
+    <select id="chart-select" bind:value={timeSpan}>
+      <option value="day">Dzień</option>
+      <option value="week">Tydzień</option>
+      <option value="year">Rok</option>
     </select>
   </div>
 
   <div>
-    <p>Wyświetlane dane</p>
+    <p>Wyświetlany Parametr</p>
     <label for="CO-toggle" class="check-container">
       CO
-      <input type="checkbox" id="CO-toggle" bind:checked={displayCO} />
+      <input
+        type="radio"
+        id="CO-toggle"
+        name="displayed-data"
+        value="CO"
+        bind:group={displayDataType}
+      />
       <span class="checkmark" />
     </label>
     <label for="NO2-toggle" class="check-container">
       NO2
-      <input type="checkbox" id="NO2-toggle" bind:checked={displayNO2} />
+      <input
+        type="radio"
+        id="NO2-toggle"
+        name="displayed-data"
+        value="NO2"
+        bind:group={displayDataType}
+      />
       <span class="checkmark" />
     </label>
     <label for="PM10-toggle" class="check-container">
       PM10
-      <input type="checkbox" id="PM10-toggle" bind:checked={displayPM10} />
+      <input
+        type="radio"
+        id="PM10-toggle"
+        name="displayed-data"
+        value="PM10"
+        bind:group={displayDataType}
+      />
       <span class="checkmark" />
     </label>
+  </div>
+
+  <div>
+    <p>Uwzględniane Stacje</p>
+    {#each stations as station}
+      <label class="check-container">
+        {station}
+        <input type="checkbox" bind:checked={selectedStations[station]} />
+        <span class="checkmark" />
+      </label>
+    {/each}
   </div>
 </div>
 

@@ -1,0 +1,69 @@
+{
+    "labels": [
+        "Poniedziałek",
+        "Wtorek",
+        "Środa",
+        "Czwartek",
+        "Piątek",
+        "Sobota",
+        "Niedziela"
+    ],
+    "datasets": [
+        {
+            "id": "PmGdaLeczkow",
+            "label": "Poziom PM10 (ug/m^3) PmGdaLeczkow",
+            "data": [
+                21.5618, 25.4901, 25.0213, 24.186, 21.2896, 19.6097, 19.0866
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaPowWars",
+            "label": "Poziom PM10 (ug/m^3) PmGdaPowWars",
+            "data": [
+                22.1988, 27.0329, 26.9888, 24.1809, 22.5512, 20.1425, 19.742
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaWyzwole",
+            "label": "Poziom PM10 (ug/m^3) PmGdaWyzwole",
+            "data": [19.416, 23.612, 22.4016, 21.8736, 19.1141, 15.44, 16.4796],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdyPorebsk",
+            "label": "Poziom PM10 (ug/m^3) PmGdyPorebsk",
+            "data": [
+                20.1906, 23.7308, 22.8984, 21.2386, 20.0711, 19.0562, 17.6517
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdySzafran",
+            "label": "Poziom PM10 (ug/m^3) PmGdySzafran",
+            "data": [19.2418, 22.4975, 22.2176, 20.977, 19.8569, 17.48, 16.168],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmSopBiPlowc",
+            "label": "Poziom PM10 (ug/m^3) PmSopBiPlowc",
+            "data": [
+                17.4476, 19.7257, 20.7092, 19.6122, 17.8173, 17.4769, 16.5103
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        }
+    ]
+}

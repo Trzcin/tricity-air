@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "chart.js": "^4.0.1",
-    "chartjs-chart-geo": "^3.10.0",
     "svelte-chartjs": "^3.1.0"
   }
 }

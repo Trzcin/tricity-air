@@ -1,0 +1,73 @@
+{
+    "labels": [
+        "Poniedziałek",
+        "Wtorek",
+        "Środa",
+        "Czwartek",
+        "Piątek",
+        "Sobota",
+        "Niedziela"
+    ],
+    "datasets": [
+        {
+            "id": "PmGdaLeczkow",
+            "label": "Poziom NO2 (ug/m^3) PmGdaLeczkow",
+            "data": [
+                19.0506, 20.1987, 19.2255, 17.5124, 17.9943, 14.541, 12.7037
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaPowWars",
+            "label": "Poziom NO2 (ug/m^3) PmGdaPowWars",
+            "data": [
+                19.3665, 20.7927, 20.2004, 18.6416, 19.2861, 14.9905, 12.7842
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdaWyzwole",
+            "label": "Poziom NO2 (ug/m^3) PmGdaWyzwole",
+            "data": [
+                16.3949, 19.4526, 18.5546, 16.9702, 15.6824, 12.2841, 11.6623
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdyPorebsk",
+            "label": "Poziom NO2 (ug/m^3) PmGdyPorebsk",
+            "data": [
+                11.2862, 12.2541, 11.0634, 10.342, 10.5639, 9.1721, 8.3749
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmGdySzafran",
+            "label": "Poziom NO2 (ug/m^3) PmGdySzafran",
+            "data": [
+                15.7109, 16.7637, 16.4853, 15.6405, 14.5709, 10.949, 9.5756
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        },
+        {
+            "id": "PmSopBiPlowc",
+            "label": "Poziom NO2 (ug/m^3) PmSopBiPlowc",
+            "data": [
+                15.1036, 16.8995, 15.1948, 14.2115, 15.1671, 12.771, 11.2242
+            ],
+            "fill": false,
+            "borderColor": "rgb(255, 134,159)",
+            "tension": 0.2
+        }
+    ]
+}
